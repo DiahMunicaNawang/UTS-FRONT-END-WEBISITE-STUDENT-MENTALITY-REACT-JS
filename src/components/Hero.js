@@ -4,7 +4,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/profilgus.jpg";
+import headerImg from "../assets/img/pusing.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -14,7 +14,7 @@ export const Hero = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["live in Jakarta", "Web Developer", "Front-end Developer"];
+  const toRotate = ["Coba Sekarang !", "Rasakan Ketenangannya !", "Hidup Mahasiswa !"];
   const period = 2000;
 
   useEffect(() => {
@@ -64,9 +64,9 @@ export const Hero = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Welcome to my website with Dicoding</span>
-                  <h1>{`Hi! I'm Guspriaman`} <span className="txt-rotate" data-period="1000" data-rotate='["live in Jakarta", "Web Developer", "Web Designer"]'><span className="wrap">{text}</span></span></h1>
-                  <p>This is my website project in learning Web Programming Basics on dicoding.id platform, organized by the Baparekraf Digital Talent 2023 facilitation program.</p>
+                  <span className="tagline">Welcome, Student Mentality</span>
+                  <h2>{`Jalani Hari-Hari Lebih Mindful dan Tenang Sebagai Mahasiswa dengan Student Mentality.`} <span className="txt-rotate" data-period="1000" data-rotate='["Coba sekarang !"]'><span className="wrap">{text}</span></span></h2>
+                  <p>Mencari tips kesehatan mental sebagai mahasiswa hanya dengan satu kali klik. Cukup kunjungi website Student Mentality dan kamu tidak akan kesepian lagi.</p>
                 </div>
               )}
             </TrackVisibility>

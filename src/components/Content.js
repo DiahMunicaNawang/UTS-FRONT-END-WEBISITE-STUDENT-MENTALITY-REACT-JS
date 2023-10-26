@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import { Hobi } from "../components/Hobi";
 import { Container, Row, Col } from "react-bootstrap";
 import healtylogo from "../assets/img/healty/healty.png";
-import healty2 from "../assets/img/healty/healty2.jpg";
-import healty3 from "../assets/img/healty/healty3.jpg";
-import healty4 from "../assets/img/healty/healty4.jpg";
-import healty5 from "../assets/img/healty/healty5.jpg";
-import healty6 from "../assets/img/healty/healty6.jpg";
+import healty2 from "../assets/img/healty/1.png";
+import healty3 from "../assets/img/healty/9.png";
+import healty4 from "../assets/img/healty/3.png";
+import healty5 from "../assets/img/healty/2.png";
+import healty6 from "../assets/img/healty/4.png";
 
 
 
@@ -82,10 +82,10 @@ export const Content = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2 className="txt-rotate">Apa itu kesehatan Mental?</h2>
-                  <p> Kesehatan mental mengacu pada kondisi kejiwaan dan emosional seseorang. </p>
+                  <p>Kesehatan mental mengacu pada kondisi kejiwaan dan emosional seseorang. </p>
                   <p>Ini mencakup perasaan, pikiran, dan perilaku yang mempengaruhi bagaimana individu berfungsi dalam kehidupan sehari-hari mereka.</p>
                   <p>Kesehatan mental yang baik penting untuk kesejahteraan secara keseluruhan, karena dapat mempengaruhi cara seseorang berinteraksi dengan orang lain, mengelola stres, membuat keputusan, dan merasakan kebahagiaan.</p>
-                  <p > Perawatan yang tepat dan dukungan sosial yang memadai dapat membantu individu dalam menjaga kesehatan mental yang baik, dan meningkatkan kemampuan mereka untuk mengatasi tantangan dan menghadapi kesulitan dengan cara yang sehat dan adaptif. </p>
+                  <p>Perawatan yang tepat dan dukungan sosial yang memadai dapat membantu individu dalam menjaga kesehatan mental yang baik, dan meningkatkan kemampuan mereka untuk mengatasi tantangan dan menghadapi kesulitan dengan cara yang sehat dan adaptif. </p>
 
 
                 </div>}
@@ -107,7 +107,7 @@ export const Content = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2 className="txt-rotate">OLAHRAGA YANG TERATUR</h2>
+                  <h2 className="txt-rotate">Olahraga Yang Teratur</h2>
                   <p> Olahraga teratur telah terbukti efektif dalam meningkatkan suasana hati. Saat Anda berolahraga, tubuh mengeluarkan endorfin, yaitu hormon yang meningkatkan perasaan bahagia dan mengurangi stres. </p>
                   <p>Mengurangi stres dan kecemasan: Aktivitas fisik dapat berfungsi sebagai alat yang efektif untuk mengurangi stres dan kecemasan. </p>
                   <p>Olahraga teratur dapat membantu meningkatkan kualitas tidur. Kegiatan fisik yang cukup membantu mengatur ritme sirkadian tubuh, mempromosikan tidur yang lebih nyenyak dan teratur. Tidur yang cukup dan berkualitas penting untuk pemulihan mental dan emosional, serta memperbaiki fungsi kognitif</p>
@@ -150,7 +150,7 @@ export const Content = () => {
 
                   <p>Mendengarkan musik yang menenangkan dapat membantu meredakan stres dan kecemasan. Musik memiliki kekuatan untuk mempengaruhi suasana hati dan mengalihkan perhatian dari pikiran yang mengkhawatirkan. </p>
                   <p>Mendengarkan musik saat bekerja atau belajar dapat membantu meningkatkan fokus dan konsentrasi.</p>
-                  <p>  Musik yang sesuai dapat membantu menciptakan lingkungan yang menenangkan dan membantu mengurangi gangguan eksternal.</p>
+                  <p>Musik yang sesuai dapat membantu menciptakan lingkungan yang menenangkan dan membantu mengurangi gangguan eksternal.</p>
                 </div>}
             </TrackVisibility>
           </Col>
@@ -205,7 +205,7 @@ export const Content = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2 className="txt-rotate">lingkungan Sehat</h2>
+                  <h2 className="txt-rotate">Lingkungan Sehat</h2>
                   <p>Memiliki lingkungan teman dan keluarga yang positif memberikan dukungan emosional yang penting dalam menghadapi tantangan hidup. </p>
                   <p>Interaksi sosial yang sehat dan positif dengan teman dan keluarga dapat memberikan rasa koneksi, kebersamaan, dan rasa pentingnya. </p>
                   <p>Lingkungan teman dan keluarga yang positif dapat menjadi sumber inspirasi dan motivasi dalam mencapai tujuan dan menghadapi tantangan hidup. Mereka dapat memberikan dorongan, memberikan perspektif baru, dan memotivasi Anda untuk meraih potensi terbaik Anda. </p>
@@ -253,13 +253,3 @@ export const Content = () => {
     </section >
   )
 }
-
-
-
-
-
-
-
-
-
-

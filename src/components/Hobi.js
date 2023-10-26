@@ -1,7 +1,7 @@
-import hobi1 from "../assets/img/healty/healty7.jpg";
-import hobi2 from "../assets/img/healty/healty8.jpg";
-import hobi3 from "../assets/img/healty/healty9.jpg";
-import hobi4 from "../assets/img/healty/healty10.jpg";
+import hobi1 from "../assets/img/healty/7.png";
+import hobi2 from "../assets/img/healty/8.png";
+import hobi3 from "../assets/img/healty/5.png";
+import hobi4 from "../assets/img/healty/6.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
